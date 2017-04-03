@@ -2,7 +2,7 @@
   "name": "clipjs",
   "version": "0.0.1",
   "description": "ClipJS is used to consume clips",
-  "main": "./lib/clip.js",
+  "main": "./lib/js/clip.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src --out-dir lib",
