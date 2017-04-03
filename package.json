@@ -1,6 +1,6 @@
 {
   "name": "clipjs",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "ClipJS is used to consume clips",
   "main": "./lib/js/clip.js",
   "scripts": {
