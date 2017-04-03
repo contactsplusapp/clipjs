@@ -179,7 +179,10 @@ export default class Clip {
     }
 
     handles(host) {
-        return this.config.handles.indexOf(host) > -1;
+        return _.some(
+            this.config.handles,
+            it => window.location.href.match(it)
+        );
     }
 
     isValidContact() {
