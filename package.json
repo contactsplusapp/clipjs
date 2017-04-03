@@ -1,0 +1,24 @@
+{
+  "name": "clipjs",
+  "version": "1.0.0",
+  "description": "ClipJS is used to consume clips",
+  "main": "./lib/clip.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.production.config.js",
+    "prepublish": "npm run build"
+  },
+  "author": "FullContact Labs",
+  "license": "Unlicense",
+  "dependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2015": "^6.24.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "webpack": "1.14.0"
+  }
+}
