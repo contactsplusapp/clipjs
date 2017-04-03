@@ -2,7 +2,7 @@ import _ from 'lodash';
 import moment from 'moment';
 import XPathSelector from './xpath';
 
-export default class Clipper {
+export default class Clip {
     constructor(config, debug = false) {
         this.config = config;
         this.debug = debug;
